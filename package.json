@@ -1,0 +1,35 @@
+{
+  "name": "no-issues-continuous-encouragement",
+  "version": "1.0.0",
+  "description": "A test suite to cheer you up. NICE!",
+  "keywords": [
+    "test",
+    "playwright",
+    "bun",
+    "fun"
+  ],
+  "homepage": "https://github.com/graffhyrum/no-issues-continuous-encouragement",
+  "bugs": {
+    "url": "https://github.com/graffhyrum/no-issues-continuous-encouragement/issues"
+  },
+  "author": "Joshua Pendragon <pendragon.josh@gmail.com> (https://pendragon-coding.dev)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graffhyrum/no-issues-continuous-encouragement.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/bun": "latest",
+    "@types/node": "^22.7.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "module": "index.ts",
+  "scripts": {}
+}
